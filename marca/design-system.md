@@ -57,37 +57,7 @@ Not an AI/health news channel · no generic promises ("domina la IA") · doesn't
 
 ## 3 · Content fundamentals (voice)
 
-**Language:** Spanish (Spain). Clinical-but-warm. Tech loanwords fine (*workflow, prompt, FOMO*).
-
-**Stance — "nosotros, sanitarios."** Speaks **as a fellow health professional**, first-person plural ("**nuestra** profesión"), addressing the reader as **tú**. A peer who has been in the trenches, never a tech vendor talking down.
-
-**Emotional register:** earnest, motivational, a little defiant. Names the real pain (burnout, bureaucracy, fear) and answers with empowerment. Recurring anchors: **Re-enamorarse de la profesión** · **Dar más tiempo a lo humano** · **Venga lo que venga, estaremos preparados**.
-
-**Casing:** big statements and the wordmark are **ALL CAPS**. Body copy sentence case. Mono kickers uppercase with wide tracking (`> NIVEL: PRO`).
-
-### Tone characteristics
-*   **Cercano pero con criterio** — "el colega que sabe más que tú sobre esto pero no te hace sentir ignorante."
-*   **Directo, sin rodeos formativos** — "Esto te ahorra 30 minutos por guardia" beats "nuestra metodología integral de capacitación."
-*   **Concreto, con datos reales** — not "mejoramos tu práctica clínica" but "**reducimos de 25 a 8 minutos el informe de alta**." Always quantify.
-*   **Humano sin ser cursi** — guardias, residentes quemados, enfermeras que no dan abasto — not "usuarios finales en entornos asistenciales."
-*   **Valiente** — "nos mojamos": say which tools are worth it and which aren't.
-*   **Optimista sin negar la realidad** — from "esto puedes hacerlo," never "aprende o te quedas atrás."
-
-### Rhetorical moves
-*   **Contrast frame:** "No enseñamos IA. Enseñamos a…"
-*   **GPS metaphor:** "Como un buen GPS no te explica la ingeniería de satélites, sino que te lleva a donde necesitas ir."
-*   **Concrete use-cases over hype** — every claim tied to a clinical task with a measurable payoff.
-
-**Emoji:** default none in UI. A single 💡 may flag a value-prop callout in long-form copy only. Prefer mono glyphs.
-
-#### ✓ Do
-*   "Reducimos de 25 a 8 minutos el tiempo de informe de alta."
-*   "Esto te ahorra 30 minutos por guardia. Sin ser informático."
-
-#### ✕ Don't
-*   "Transforma tu práctica clínica"
-*   "Domina la IA"
-*   "Prepara tu futuro digital."
+Voz y tono: ver marca/voz.md
 
 ## 4 · Visual foundations
 
