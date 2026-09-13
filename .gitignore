@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+
+# Archivos privados: nunca entran en git
+PRIVADO_*
+
+# Documentos de origen de la migración (se borran tras verificar el resultado)
+_origen/
