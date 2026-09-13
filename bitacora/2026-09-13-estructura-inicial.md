@@ -1,0 +1,22 @@
+# Sesión 2026-09-13 · Estructura inicial, voz, DESIGN.md, CLAUDE.md y traza
+
+- **Quién**: Alfredo, con Claude Code.
+- **Objetivo**: convertir dos documentos de origen (Brand Reference en inglés y Contexto Maestro) en un repositorio de contexto de marca limpio que puedan consumir personas y agentes, sin datos de negocio, y dejarlo gobernado.
+- **Hecho**:
+  - PR #1: estructura inicial (`README.md`, `DECISIONES.md`, `CHANGELOG.md`, `.gitignore`, `marca/contexto.md`, `marca/design-system.md`, `marca/tokens.css`, `piezas/carruseles/`). Los originales salen del árbol a `_origen/`.
+  - PR #2: `marca/voz.md` (versión 1.0) consolidando la voz que vivía en tres sitios; `DESIGN.md` según el estándar de Google (0 errores en su validador); `marca/tokens.css` válido por sí solo; retirada de `marca/design-system.md`; primer `CLAUDE.md`.
+  - PR #3: `CLAUDE.md` como mapa único y sección de gobierno; `README.md` reducido a presentación.
+  - PR #4: traza y memoria (`DECISIONES.md` con ID y dos tablas, `CHANGELOG.md` en lista, `bitacora/`, `activos/`, `inspiracion/`), `README.md` reescrito para personas y `CLAUDE.md` revisado.
+- **Decisiones**: D-001 a D-012, todas registradas en `DECISIONES.md`. Cerradas por Alfredo: D-001, D-003, D-004, D-005, D-008 a D-012. Abiertas para los cuatro fundadores: D-002 (nombre público), D-006 (mapeo tipográfico web), D-007 (contraste del botón primario).
+- **Probado y descartado**:
+  - Copiar la sección 3 inglesa del Brand Reference a `voz.md` como bloque propio: descartado, era un duplicado traducido de «Tono y voz» de la sección 9 en castellano.
+  - Traer a `voz.md` los ejemplos de posts y el reparto TOFU/MOFU de «Roles editoriales por perfil»: descartado, es estrategia de contenidos, no voz. Solo entran las descripciones de registro.
+  - Tres secciones del brief de `voz.md` (defendibilidad frente a velocidad, puente causal, filtro de nivel 0): no existían en ningún original y se eliminaron en vez de inventarlas.
+  - Mantener `marca/design-system.md` junto a `DESIGN.md`: descartado, dos documentos del mismo sistema visual iban a divergir (D-005).
+  - Mantener el mapa de archivos en `README.md` y en `CLAUDE.md`: descartado por duplicación (D-008).
+- **Pendiente y preguntas abiertas**:
+  - Purgar del historial de git los commits `0bb8e0a` y `fa6cef9`, que contienen los documentos de origen con datos internos. Decide Alfredo; conviene hacerlo antes de dar acceso a colaboradores.
+  - D-002, D-006 y D-007 esperan a los cuatro fundadores.
+  - `activos/` e `inspiracion/` están vacías: falta subir el logotipo y las primeras referencias (Visualize Value, Putos Modernos, SpinOff, citadas en el Contexto Maestro como referentes).
+  - Los pares de ejemplo de `voz.md` son sintéticos; sustituirlos por pares reales conforme se publiquen piezas.
+- **Archivos de gobierno tocados**: `CLAUDE.md` (creado en PR #2, reescrito en PR #3 y PR #4 para ser el mapa único y recoger traza y cierre de sesión) y `README.md` (creado en PR #1, reducido en PR #3, reescrito en PR #4 como orientación para personas).
