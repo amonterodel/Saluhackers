@@ -121,36 +121,7 @@ Cada profesional de la salud (farmacéutcio, médico, enfermero, gestor, residen
 
 ### Tono y voz
 
-**Cercano pero con criterio.** Saluhackers habla como **el colega que sabe más que tú sobre esto pero no te hace sentir ignorante**. No usa jerga técnica para impresionar ni promesas grandilocuentes para vender.
-
-Idioma: español de España. Tuteo. Primera persona del plural ("nuestra profesión"). Anglicismos técnicos aceptados cuando no hay alternativa clara (workflow, prompt, FOMO).
-
-**Características:**
-- **Directo, sin rodeos formativos.** "Esto te ahorra 30 minutos por guardia" vale más que "nuestra metodología integral de capacitación en tecnologías emergentes"
-- **Concreto, con datos y casos reales.** No "mejoramos tu práctica clínica" sino "reducimos de 25 a 8 minutos el tiempo del informe de alta". Siempre cuantificar
-- **Humano sin ser cursi.** Hablamos de guardias, de residentes quemados, de enfermeras que no dan abasto. No de "usuarios finales en entornos asistenciales"
-- **Valiente. Nos mojamos.** Decimos qué herramientas merece la pena aprender y cuáles no. Qué se puede hacer con datos clínicos y qué no se debe hacer nunca
-- **Optimista sin negar la realidad.** Sí, la IA da miedo y el sistema está saturado. Pero comunicamos desde el "esto puedes hacerlo", nunca desde el "aprende o te quedas atrás"
-
-**Recursos retóricos propios:**
-- **Marco de contraste:** "No enseñamos IA. Enseñamos a..."
-- **Muletillas de marca:** "nugget de valor" · uso de memes para explicar valor
-- **Anclas emocionales recurrentes:** *reenamorarse de la profesión* · *dar más tiempo a lo humano* · *venga lo que venga, estaremos preparados*
-- **Atribución del problema:** siempre "nadie te ha enseñado", nunca culpar al alumno
-
-**Mayúsculas:** las grandes afirmaciones y el logotipo van en MAYÚSCULAS. El cuerpo de texto en frase normal. Los kickers en monoespaciada van en mayúsculas con tracking amplio (`> NIVEL: PRO`).
-
-**Emojis:** ninguno por defecto en interfaz. Un 💡 puntual para destacar una propuesta de valor en textos largos. Se prefieren los glifos monoespaciados.
-
-**✓ Así sí**
-- "Reducimos de 25 a 8 minutos el tiempo de informe de alta."
-- "Esto te ahorra 30 minutos por guardia. Sin ser informático."
-
-**✕ Así no**
-- "Transforma tu práctica clínica"
-- "Domina la IA"
-- "Prepara tu futuro digital"
-- "De 0 a 100", "el 99% falla en esto", "no te quedes atrás"
+Voz y tono: ver marca/voz.md
 
 ### Los seis territorios temáticos
 
