@@ -4,17 +4,19 @@
 
 ## Archivos
 
-- `brief.md`: qué se construye, las reglas que no se negocian y los quince elementos interactivos en orden. Es la referencia de esta pieza.
+- `brief.md`: qué se construye, las reglas que no se negocian y los quince componentes en orden. Es la referencia de esta pieza.
+- `contenido.md`: el texto final, con las marcas `[ELEMENTO · …]` y `[CTA · …]` en el punto exacto donde va cada componente. No se reescribe, no se resume, no se añade ni una frase (primera regla del brief).
 - `CLAUDE.md`: reglas técnicas del proyecto. Las lee Claude Code al trabajar en esta carpeta.
 - `plantilla.html`: esqueleto de marca con los tokens ya incrustados. Sirve como referencia de estilos y como origen del bloque de tokens, no como base de esta pieza: el brief pide una idea por pantalla sin desplazamiento vertical, y la plantilla es una página de secciones apiladas.
 
 ## Qué falta para poder empezar
 
-- `contenido.md`, con el texto final y las marcas `[ELEMENTO · …]` en su sitio. Sin él no hay pieza: el brief dice que ese texto no se reescribe ni se resume.
-- Las dos capturas del elemento 9 (antes y después). El brief las sitúa en `assets/`, carpeta que todavía no existe.
-- Quién firma la pieza (ver «Quién firma qué» en `marca/voz.md`).
-- Servicio y campos del formulario de lista de espera del elemento 15 (D-015).
-- Dónde se aloja el archivo, con qué nombre, y la fecha de publicación visible en el pie.
+- **Las tres imágenes que enlaza `contenido.md`**, en la carpeta `assets/`, que todavía no existe: `infografia-usuario-vs-hacker.png`, `fuentes-antes.png` y `fuentes-despues.png`. Sin ellas, tres pantallas quedan huecas.
+- **Resolver los cuatro desajustes entre `brief.md` y `contenido.md`** (D-017): número de tarjetas del elemento 8, orden del antes/después frente al comparador, nombre de la primera capa del elemento 14 y cuántas imágenes hay.
+- **Servicio y campos del formulario de lista de espera** de la marca `[CTA · lista de espera]` (D-015).
+- **Quién firma la pieza** (ver «Quién firma qué» en `marca/voz.md`).
+- **Dónde se aloja el archivo**, con qué nombre, y la fecha de publicación visible en el pie.
+- **Dónde va la bibliografía** de cinco referencias con la que cierra `contenido.md`: pantalla propia, panel desplegable o pie. El brief no la contempla.
 
 ## Cómo sincronizar los tokens de un archivo
 
