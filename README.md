@@ -10,7 +10,7 @@ Escuela online de IA exclusivamente para profesionales sanitarios. No enseña IA
 
 Aquí vive todo lo necesario para que una pieza (un carrusel de LinkedIn, una landing, una presentación, una herramienta web) sea reconociblemente Saluhackers: cómo hablamos, cómo nos vemos y los valores exactos que usamos. Lo consumen los fundadores y los agentes con los que trabajamos (Claude Code, Claude Design).
 
-No es un repositorio de negocio (precios, comisiones, embajadores, métricas: eso vive en Notion), no es el archivo de todo lo que publicamos, y no contiene código de producto.
+No es un repositorio de negocio (precios, comisiones, embajadores, métricas: eso vive en Notion) ni el archivo de todo lo que publicamos. Sí se construyen aquí las piezas que son un único archivo autocontenido, en `proyectos/`, pero no aloja servicios, aplicaciones con despliegue ni nada que haya que instalar.
 
 ## Tu primer día aquí
 
@@ -31,4 +31,5 @@ No es un repositorio de negocio (precios, comisiones, embajadores, métricas: es
 - Un logotipo, una plantilla, una marca de agua: `activos/`.
 - Una referencia externa que inspira el estilo (una captura, un PDF, un póster): `inspiracion/`.
 - Una pieza nuestra ya publicada: `piezas/<tipo>/` (hoy, `piezas/carruseles/`).
+- Algo que hay que construir y se abre en el navegador (un lead magnet, una página autocontenida): `proyectos/<nombre>/`.
 - Una decisión: `DECISIONES.md`. Un cambio: `CHANGELOG.md`. Una sesión de trabajo: `bitacora/`.

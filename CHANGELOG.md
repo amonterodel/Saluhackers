@@ -2,6 +2,10 @@
 
 Lo más reciente arriba. Una viñeta por cambio: qué cambió, por qué, y el PR o la decisión (`D-NNN`) relacionados. Los detalles de cada sesión están en `bitacora/`.
 
+## 2026-09-18
+
+- **Nueva carpeta `proyectos/` y esqueleto del lead magnet** (PR #5, D-013, D-014). `proyectos/lead-magnet/` con su propio `CLAUDE.md`, un `README.md` con el brief por cerrar y `plantilla.html`, un esqueleto de marca autocontenido con los tokens ya incrustados. `proyectos/sincroniza-tokens.py` copia `marca/tokens.css` dentro del HTML entre marcas, para que el CSS siga mandando (D-004). `CLAUDE.md` y `README.md` de la raíz dejan de decir que aquí no hay código: ahora acotan qué cabe en `proyectos/` y qué no. Por qué: el lead magnet es un archivo único que se abre en el navegador, sin dependencias ni compilación, así que cabe aquí sin ensuciar el contexto; un servicio o una aplicación con despliegue seguiría necesitando repositorio propio.
+
 ## 2026-09-13
 
 - **Traza y memoria del repositorio** (PR #4, D-009 a D-012). `DECISIONES.md` pasa a tener identificadores y dos tablas (abiertas y cerradas); `CHANGELOG.md` pasa de tabla a esta lista por fecha; nueva carpeta `bitacora/` con plantilla y primera entrada; nuevas carpetas `activos/` e `inspiracion/`. `README.md` reescrito como orientación para personas (qué es, primer día, cómo se trabaja, dónde va cada cosa). `CLAUDE.md` revisado: mapa con las carpetas nuevas, sección de traza y cierre de sesión. Por qué: sin identificadores no se podía citar una decisión, la tabla del changelog ya era ilegible, y no había dónde dejar lo probado, lo descartado y las preguntas entre sesiones.

@@ -2,7 +2,7 @@
 
 Fuente de verdad de marca, voz y diseño de Saluhackers, escuela online de IA para profesionales sanitarios. Lo consumen personas y agentes (Claude Code, Claude Design) para producir carruseles de LinkedIn, herramientas web y otras piezas. Notion es la fuente de verdad de negocio: ningún dato de negocio entra aquí.
 
-No hay código que compilar ni tests que ejecutar. El «producto» son documentos de marca y las piezas que se derivan de ellos. Este archivo es el mapa definitivo del repositorio: `README.md` orienta a las personas y remite aquí.
+El «producto» son documentos de marca y las piezas que se derivan de ellos. En la raíz no hay nada que compilar ni tests que ejecutar; los artefactos que se ejecutan viven en `proyectos/`, cada uno con su propio `CLAUDE.md` que se carga al trabajar en esa carpeta. Este archivo es el mapa definitivo del repositorio: `README.md` orienta a las personas y remite aquí.
 
 ## Mapa del repositorio y qué manda sobre qué
 
@@ -20,6 +20,9 @@ activos/               Activos visuales persistentes de la marca: logotipo, marc
 inspiracion/           Referencias visuales externas en las que se basa el estilo (capturas, PDF, pósteres)
 piezas/
   carruseles/          Carruseles de LinkedIn publicados (PDF). Otros tipos: piezas/<tipo>/ cuando existan
+proyectos/
+  sincroniza-tokens.py Copia marca/tokens.css dentro del bloque de tokens de un HTML autocontenido
+  <nombre>/            Un proyecto por artefacto ejecutable, con su propio CLAUDE.md y su README
 bitacora/
   PLANTILLA.md         Plantilla de entrada de sesión
   AAAA-MM-DD-tema.md   Una entrada por sesión de trabajo
@@ -32,6 +35,7 @@ PRIVADO_*              Cualquier archivo con ese prefijo queda fuera de git
 - **Voz y tono**: `marca/voz.md`. Único lugar donde vive la voz.
 - **Posicionamiento, público y territorio**: `marca/contexto.md`.
 - **Estado de lo no decidido**: `DECISIONES.md`. Este archivo no repite decisiones; las cita por ID.
+- **Qué cabe en `proyectos/`**: artefactos autocontenidos en un archivo (HTML, CSS y JavaScript en línea, sin dependencias que instalar ni paso de compilación), como el lead magnet (D-013). No caben servicios, aplicaciones con despliegue ni nada con árbol de dependencias: eso va a un repositorio propio. Cada proyecto lleva su `CLAUDE.md`, que manda sobre el de la raíz solo en lo técnico; la voz y el diseño no se negocian.
 - **Activos frente a inspiración frente a piezas**: `activos/` es lo nuestro y reutilizable; `inspiracion/` es ajeno y solo referencia; `piezas/` es lo nuestro ya publicado, que sirve de ejemplo. Nombres de archivo en minúsculas, con guiones, sin espacios ni acentos, y con el contenido reconocible en el nombre (`logo-saluhackers-horizontal.svg`, `visualize-value-carrusel-minimal.png`).
 
 ## Gobierno: qué hacer cuando algo cambia
