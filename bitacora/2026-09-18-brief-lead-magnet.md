@@ -8,7 +8,7 @@
   - Transcribir el brief con `design.md` en minúsculas. Descartado: ese archivo no existe, el del repositorio es `DESIGN.md`, y en un sistema de archivos que distingue mayúsculas la referencia se rompe. Corregida solo la caja del nombre.
   - Dejar la lista de «Reglas que no se negocian» con la mezcla de viñetas y la frase partida del original. Descartado: era daño de formato al pegar. Se unificaron las viñetas y se unió la frase sin tocar una palabra.
   - Empezar la pieza sobre `plantilla.html`. Descartado: la plantilla es una página de secciones apiladas y el brief pide una idea por pantalla sin desplazamiento vertical. Queda como referencia de estilos y origen del bloque de tokens.
-  - Renombrar `assets/` a `activos/` por coherencia con D-009. No hecho: la carpeta aún no existe y `contenido.md` ya enlaza esa ruta en tres sitios, así que cambiarla obligaría a tocar el texto, que es final.
+  - Renombrar `assets/` a `activos/` por coherencia con D-009. Descartado: `contenido.md` enlaza esa ruta en tres sitios, así que cambiarla obligaría a tocar el texto, que es final. La carpeta se crea con el nombre que pide el texto.
   - Dar por incumplida la regla de «ningún signo de exclamación». Falsa alarma mía: los tres resultados eran la sintaxis markdown de imagen `![alt](ruta)`. En la prosa no hay ninguno.
   - Nombrar las cinco imágenes por su orden de llegada. Descartado: dos tienen nombre obligatorio porque `contenido.md` las enlaza por ruta, y las otras tres se nombraron por lo que muestran.
   - Dar por ausente el componente 15. Falsa alarma mía: existe, pero marcado `[CTA · lista de espera]` en vez de `[ELEMENTO · …]`, así que el recuento de marcas daba catorce.
