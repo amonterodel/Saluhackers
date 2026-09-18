@@ -1,27 +1,27 @@
 # Lead magnet
 
-**Estado: sin empezar.** El esqueleto de marca está listo; el contenido, por definir.
+**Estado: brief recibido, contenido pendiente.** La pieza es «3 pasos para hackear tu Gemini Notebook sanitario».
 
 ## Archivos
 
-- `plantilla.html`: esqueleto con los tokens de marca ya incrustados, las dos superficies, el panel de terminal y la llamada a la acción. Sin contenido: todo son marcas `[PENDIENTE]`.
-- `CLAUDE.md`: reglas de este proyecto. Las lee Claude Code al trabajar en esta carpeta.
+- `brief.md`: qué se construye, las reglas que no se negocian y los quince componentes en orden. Es la referencia de esta pieza.
+- `contenido.md`: el texto final, con las marcas `[ELEMENTO · …]` y `[CTA · …]` en el punto exacto donde va cada componente. No se reescribe, no se resume, no se añade ni una frase (primera regla del brief).
+- `CLAUDE.md`: reglas técnicas del proyecto. Las lee Claude Code al trabajar en esta carpeta.
+- `plantilla.html`: esqueleto de marca con los tokens ya incrustados. Sirve como referencia de estilos y como origen del bloque de tokens, no como base de esta pieza: el brief pide una idea por pantalla sin desplazamiento vertical, y la plantilla es una página de secciones apiladas.
 
-## Cómo empezar una pieza
+## Qué falta para poder empezar
+
+- **Las tres imágenes que enlaza `contenido.md`**, en la carpeta `assets/`, que todavía no existe: `infografia-usuario-vs-hacker.png`, `fuentes-antes.png` y `fuentes-despues.png`. Sin ellas, tres pantallas quedan huecas.
+- **Resolver los cuatro desajustes entre `brief.md` y `contenido.md`** (D-017): número de tarjetas del elemento 8, orden del antes/después frente al comparador, nombre de la primera capa del elemento 14 y cuántas imágenes hay.
+- **Servicio y campos del formulario de lista de espera** de la marca `[CTA · lista de espera]` (D-015).
+- **Quién firma la pieza** (ver «Quién firma qué» en `marca/voz.md`).
+- **Dónde se aloja el archivo**, con qué nombre, y la fecha de publicación visible en el pie.
+- **Dónde va la bibliografía** de cinco referencias con la que cierra `contenido.md`: pantalla propia, panel desplegable o pie. El brief no la contempla.
+
+## Cómo sincronizar los tokens de un archivo
 
 ```
-cp proyectos/lead-magnet/plantilla.html proyectos/lead-magnet/<tema>.html
-python3 proyectos/sincroniza-tokens.py proyectos/lead-magnet/<tema>.html
+python3 proyectos/sincroniza-tokens.py proyectos/lead-magnet/<archivo>.html
 ```
 
-Y abrir el archivo en el navegador. No hay servidor ni instalación.
-
-## Brief por cerrar
-
-Ninguna de estas respuestas está en el repositorio, así que hay que traerlas antes de escribir:
-
-- Tema y caso clínico concreto que resuelve, con el resultado medible que se lleva el lector.
-- Quién firma la pieza (ver «Quién firma qué» en `marca/voz.md`).
-- Si esta pieza **capta** el correo (lleva formulario, y hay que decidir a dónde envía) o se **entrega** después de haberlo captado (sin formulario). De eso depende el destino del botón de cierre.
-- Dónde se aloja el archivo y con qué nombre.
-- Fecha de publicación y de última actualización visible en el pie.
+El archivo se abre directamente en el navegador. No hay servidor ni instalación.
