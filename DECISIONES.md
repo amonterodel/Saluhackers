@@ -9,6 +9,8 @@ Registro de decisiones de marca, voz, diseño y gobierno del repositorio. Cada d
 | D-002 | Nombre público de la marca: hay tres en circulación (Saluhackers, Ágora Saluhackers, AgorIA/Academia). Uno ya publicado en la web. | 2026-09-13 | Los cuatro fundadores |
 | D-006 | Mapeo de la escala tipográfica a niveles web (display, h1, h2, h3, lead, body, small, kicker, label, mono). `DESIGN.md` lleva una propuesta marcada [PENDIENTE]; los originales solo fijan familias, pesos, tracking e interlineados. | 2026-09-13 | Los cuatro fundadores |
 | D-007 | Contraste del botón primario: texto blanco sobre terracota `#C2683E` da 3.93:1, por debajo del mínimo WCAG AA de 4.5:1 para texto normal. Opciones: relleno `rust-700`, texto en tinta, o aceptar la excepción. | 2026-09-13 | Los cuatro fundadores |
+| D-015 | Formulario de lista de espera del lead magnet (elemento 15 de `proyectos/lead-magnet/brief.md`): qué servicio lo recibe y qué campos pide. El brief lo deja marcado `[PENDIENTE]`. Sin esto, la pantalla de cierre no se puede construir. | 2026-09-18 | Los cuatro fundadores |
+| D-016 | Contradicción entre `proyectos/lead-magnet/brief.md`, que deja fuera de alcance «cualquier promesa de ahorro de tiempo», y `marca/voz.md`, que usa «Esto te ahorra 30 minutos por guardia» como ejemplo canónico de «Así sí» y lo prescribe como sustituto en el léxico prohibido. Hay que elegir: la regla del brief vale solo para esta pieza, o `marca/voz.md` cambia para todas. | 2026-09-18 | Los cuatro fundadores |
 
 ## Cerradas
 

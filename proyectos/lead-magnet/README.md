@@ -1,27 +1,25 @@
 # Lead magnet
 
-**Estado: sin empezar.** El esqueleto de marca está listo; el contenido, por definir.
+**Estado: brief recibido, contenido pendiente.** La pieza es «3 pasos para hackear tu Gemini Notebook sanitario».
 
 ## Archivos
 
-- `plantilla.html`: esqueleto con los tokens de marca ya incrustados, las dos superficies, el panel de terminal y la llamada a la acción. Sin contenido: todo son marcas `[PENDIENTE]`.
-- `CLAUDE.md`: reglas de este proyecto. Las lee Claude Code al trabajar en esta carpeta.
+- `brief.md`: qué se construye, las reglas que no se negocian y los quince elementos interactivos en orden. Es la referencia de esta pieza.
+- `CLAUDE.md`: reglas técnicas del proyecto. Las lee Claude Code al trabajar en esta carpeta.
+- `plantilla.html`: esqueleto de marca con los tokens ya incrustados. Sirve como referencia de estilos y como origen del bloque de tokens, no como base de esta pieza: el brief pide una idea por pantalla sin desplazamiento vertical, y la plantilla es una página de secciones apiladas.
 
-## Cómo empezar una pieza
+## Qué falta para poder empezar
 
-```
-cp proyectos/lead-magnet/plantilla.html proyectos/lead-magnet/<tema>.html
-python3 proyectos/sincroniza-tokens.py proyectos/lead-magnet/<tema>.html
-```
-
-Y abrir el archivo en el navegador. No hay servidor ni instalación.
-
-## Brief por cerrar
-
-Ninguna de estas respuestas está en el repositorio, así que hay que traerlas antes de escribir:
-
-- Tema y caso clínico concreto que resuelve, con el resultado medible que se lleva el lector.
+- `contenido.md`, con el texto final y las marcas `[ELEMENTO · …]` en su sitio. Sin él no hay pieza: el brief dice que ese texto no se reescribe ni se resume.
+- Las dos capturas del elemento 9 (antes y después). El brief las sitúa en `assets/`, carpeta que todavía no existe.
 - Quién firma la pieza (ver «Quién firma qué» en `marca/voz.md`).
-- Si esta pieza **capta** el correo (lleva formulario, y hay que decidir a dónde envía) o se **entrega** después de haberlo captado (sin formulario). De eso depende el destino del botón de cierre.
-- Dónde se aloja el archivo y con qué nombre.
-- Fecha de publicación y de última actualización visible en el pie.
+- Servicio y campos del formulario de lista de espera del elemento 15 (D-015).
+- Dónde se aloja el archivo, con qué nombre, y la fecha de publicación visible en el pie.
+
+## Cómo sincronizar los tokens de un archivo
+
+```
+python3 proyectos/sincroniza-tokens.py proyectos/lead-magnet/<archivo>.html
+```
+
+El archivo se abre directamente en el navegador. No hay servidor ni instalación.

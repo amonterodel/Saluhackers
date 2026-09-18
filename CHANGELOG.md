@@ -4,6 +4,7 @@ Lo más reciente arriba. Una viñeta por cambio: qué cambió, por qué, y el PR
 
 ## 2026-09-18
 
+- **Brief del lead magnet** (PR #6, D-015, D-016). `proyectos/lead-magnet/brief.md` con el formato de la pieza, las reglas que no se negocian y los quince elementos interactivos en orden. El `README.md` del proyecto deja de listar el brief por cerrar y remite al archivo, y añade lo que falta para empezar. Por qué: el contenido y los elementos ya están definidos, y el brief es la referencia de la que cuelga todo lo demás.
 - **Nueva carpeta `proyectos/` y esqueleto del lead magnet** (PR #5, D-013, D-014). `proyectos/lead-magnet/` con su propio `CLAUDE.md`, un `README.md` con el brief por cerrar y `plantilla.html`, un esqueleto de marca autocontenido con los tokens ya incrustados. `proyectos/sincroniza-tokens.py` copia `marca/tokens.css` dentro del HTML entre marcas, para que el CSS siga mandando (D-004). `CLAUDE.md` y `README.md` de la raíz dejan de decir que aquí no hay código: ahora acotan qué cabe en `proyectos/` y qué no. Por qué: el lead magnet es un archivo único que se abre en el navegador, sin dependencias ni compilación, así que cabe aquí sin ensuciar el contexto; un servicio o una aplicación con despliegue seguiría necesitando repositorio propio.
 
 ## 2026-09-13
